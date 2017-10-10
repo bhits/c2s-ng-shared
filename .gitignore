@@ -118,6 +118,9 @@ bower_components
 # Optional REPL history
 .node_repl_history
 
+# ng-packagr build folder for Angular component libraries
+.ng_build
+
 
 # SASS #
 ##################################
