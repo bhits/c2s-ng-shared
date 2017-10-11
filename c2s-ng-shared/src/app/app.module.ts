@@ -1,10 +1,10 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
+import {MaterialModule} from "@angular/material";
 
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from "./app-routing.module";
 import {SandboxModule} from "./sandbox/sandbox.module";
-import {MaterialRootModule} from "@angular/material";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
@@ -14,9 +14,9 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialRootModule,
     SandboxModule,
     AppRoutingModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

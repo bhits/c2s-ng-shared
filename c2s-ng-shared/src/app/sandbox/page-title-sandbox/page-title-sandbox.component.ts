@@ -3,7 +3,6 @@ import {SandboxComponent, TEMPLATE_PREFIX} from "../sandbox-component";
 
 @Component({
   selector: 'c2s-page-title-sandbox',
-  // templateUrl: './page-title-sandbox.component.html',
   template: TEMPLATE_PREFIX + PageTitleSandboxComponent.template,
   styleUrls: ['./page-title-sandbox.component.css']
 })

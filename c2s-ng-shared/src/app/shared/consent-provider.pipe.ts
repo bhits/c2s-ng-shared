@@ -1,7 +1,7 @@
 import {Pipe, PipeTransform} from "@angular/core";
 import {ConsentProvider, FHIR_US_NPI_SYSTEM} from "./consent-provider.model";
 
-type ArgType = "npi" | "name" | "phone" | "address";
+export type ArgType = "npi" | "name" | "phone" | "address";
 
 @Pipe({
   name: 'consentProvider'

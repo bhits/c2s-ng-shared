@@ -4,7 +4,6 @@ import {SandboxComponent, TEMPLATE_PREFIX} from "../sandbox-component";
 
 @Component({
   selector: 'c2s-show-hide-password-sandbox',
-  // templateUrl: './show-hide-password-sandbox.component.html',
   template: TEMPLATE_PREFIX + ShowHidePasswordSandboxComponent.template,
   styleUrls: ['./show-hide-password-sandbox.component.css']
 })

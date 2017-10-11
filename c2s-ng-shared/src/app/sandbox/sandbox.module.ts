@@ -4,11 +4,13 @@ import {ShowHidePasswordSandboxComponent} from './show-hide-password-sandbox/sho
 import {SharedModule} from "../shared/shared.module";
 import {PageTitleSandboxComponent} from './page-title-sandbox/page-title-sandbox.component';
 import {HomeSandboxComponent} from './home-sandbox/home-sandbox.component';
+import {MaterialModule} from "@angular/material";
 
 @NgModule({
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    MaterialModule
   ],
   declarations: [ShowHidePasswordSandboxComponent, PageTitleSandboxComponent, HomeSandboxComponent]
 })
