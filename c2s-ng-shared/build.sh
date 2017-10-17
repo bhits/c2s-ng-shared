@@ -6,6 +6,7 @@ NC='\033[0m'
 
 echo -e "${LIGHT_GREEN}running npm prune and npm update${NC}"
 npm prune
+npm install
 npm update
 
 echo -e "${LIGHT_GREEN}cleaning .ng_build folder${NC}"
