@@ -5,6 +5,8 @@ LIGHT_GREEN='\033[1;32m'
 NC='\033[0m'
 
 echo -e "${LIGHT_GREEN}running npm prune and npm update${NC}"
+which node
+which npm
 npm prune
 npm install
 npm update
