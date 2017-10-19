@@ -1,6 +1,6 @@
 # C2S NG Shared
 
-Angular UI Component Library for C2S Shared components.
+Angular UI Component Library for C2S Shared Components.
 
 ## Build
 
@@ -16,7 +16,7 @@ Angular UI Component Library for C2S Shared components.
 #### Jenkins Prerequisites
 
 + Jenkins must comply with [build prerequisites](#prerequisites).
-+ `/usr/local/google/home/mmalerba` directory must be recursively given permissions for `jenkins` user and group to read and write.
++ `/usr/local/google/home/mmalerba` directory must be recursively given permissions for the `jenkins` user and group to read and write.
 
 #### Jenkins Build Sample Shell Script
 
