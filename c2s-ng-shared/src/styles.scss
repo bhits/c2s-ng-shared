@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'assets/themes/c2s/c2s-app-theme';
+@import 'assets/scss/core';
+@import 'assets/scss/c2s-flex-styles';
+@import 'assets/scss/font-styles';
+
+p, div, pre {
+  font-size: large;
+}
